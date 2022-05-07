@@ -1,0 +1,17 @@
+asgiref==3.5.1
+autopep8==1.6.0
+click==8.1.3
+colorama==0.4.4
+Django==4.0.4
+djlint==1.0.1
+importlib-metadata==4.11.3
+pathspec==0.9.0
+pycodestyle==2.8.0
+PyMySQL==1.0.2
+PyYAML==6.0
+regex==2022.4.24
+sqlparse==0.4.2
+toml==0.10.2
+tomli==2.0.1
+tqdm==4.64.0
+zipp==3.8.0
