@@ -4,10 +4,12 @@ from .models import ArticleImage
 
 
 class ArticleImageForm(forms.ModelForm):
-    image = forms.ImageField(
-        widget=forms.ClearableFileInput(attrs={'multiple': True}))
+    image = forms.ImageField(widget=forms.ClearableFileInput(attrs={'multiple': True}))
 
-
-class Meta:
-  model = ArticleImage 
-  fields = '__all__'
+    class Meta:
+        model = ArticleImage
+        fields = '__all__'
+        widgets = {
+            'title': forms.TextInput(attrs={'class':'form-control'}),
+            'category':forms.Select(attrs={'class':'form-control'})
+        }
