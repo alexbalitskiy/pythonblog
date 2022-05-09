@@ -22,7 +22,4 @@ from . import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path(r'', include('app_blog.urls')), ]
-
-# urlpatterns += staticfiles_urlpatterns()
-urlpatterns += static(settings.MEDIA_URL,documents_root=settings.MEDIA_ROOT)
+    path(r'', include('app_blog.urls')), ] + static(settings.MEDIA_URL, documents_root=settings.MEDIA_ROOT)
