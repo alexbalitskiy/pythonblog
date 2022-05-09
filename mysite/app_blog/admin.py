@@ -8,8 +8,8 @@ from .forms import ArticleImageForm
 
 
 class CategoryAdmin(admin.ModelAdmin):
-    list_display = ('category',)
-    fieldsets = (('', {'fields': ('category', ), }),)
+    list_display = ('category','slug')
+    fieldsets = (('', {'fields': ('category','slug' ), }),)
 
 admin.site.register(Category, CategoryAdmin)
 

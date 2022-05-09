@@ -72,3 +72,4 @@ class ArticleCategoryList(ArticleList):
             category__slug__in=[self.kwargs['slug']]).distinct()
 
         return articles
+

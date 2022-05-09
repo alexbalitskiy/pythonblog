@@ -6,6 +6,7 @@
     </head>
     <body>
         Публікації
+        {% comment %} <a stile = text-align="right" onclick="javascript:history.back(); return false;">Назад</a> {% endcomment %}
         <br/>
         {% if category %}{{ category }}{% endif %}
         {% for item in items %}

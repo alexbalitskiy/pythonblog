@@ -33,8 +33,8 @@ class Category(models.Model):
         try:
             url = reverse('articles-category-list', kwargs={'slug': self.slug})
         except Exception as ex:
-            print (ex)
-            
+            print(ex)
+
             url = "/"
         return url
 
@@ -62,8 +62,10 @@ class Article(models.Model):
 
     def get_absolute_url(self):
         try:
-            url = reverse("news-detail", kwargs={"year": self.pub_date.strtime(
-                "%Y"), 'month': self.pub_date.strtime("%m"), 'day': self.pub_date.strtime("%d"), 'slug': self.slug})
+            url = reverse("news-detail", kwargs={"year": self.pub_date.year,
+                                                 'month': self.pub_date.month,
+                                                 'day': self.pub_date.day,
+                                                 'slug': self.slug})
         except:
             url = "/"
         return url
