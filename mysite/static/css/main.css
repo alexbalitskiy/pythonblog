@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 18px;
+  }
+}
+
+body {
+  background-image: url('../img/bg.png');
+  background-repeat: repeat-y;
+}
+
+div>h1 {
+  color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* 
+body>div>nav>div>a>h4 {
+  color: rgb(215, 176, 36);
+  font-family: 'Ubuntu', sans-serif;
+} */
+
+.article-block {
+  background: #fff;
+  color: #383838;
+  font-family: 'Ubuntu', sans-serif;
+  box-shadow: 2px 2px 1px #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+
+.article-block a {
+  color: #f22727;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body>div>div>ol>li {
+  margin: 0 5px;
+}
+
+div.container-image>img {
+  width: 100%;
+}
+
+body>div>div:nth-child(2)>a {
+  font-size: 30px;
+  color: rgb(0, 162, 255)
+}
+
+body>div>h1 {
+  font-size: 50px;
+}
+
+body>div>h1:nth-child(3) {
+  text-align: left;
+}
+
+body>div>div>p {
+  background: #fff;
+  color: #383838;
+  font-family: 'Ubuntu', sans-serif;
+  box-shadow: 2px 2px 1px #ccc;
+}
+
+body>div>div:nth-child(5)>h5>p {
+  background: #fff;
+  color: #383838;
+  font-family: 'Ubuntu', sans-serif;
+  box-shadow: 2px 2px 1px #ccc;
+}
+
+body>div>div>div:nth-child(2) {
+
+  background: #fff;
+  color: #383838;
+  font-family: 'Ubuntu', sans-serif;
+  box-shadow: 2px 2px 1px #ccc;
+}
+body > div > div > div:nth-child(3){
+  background: #fff;
+  color: #383838;
+  font-family: 'Ubuntu', sans-serif;
+  box-shadow: 2px 2px 1px #ccc;
+}
+body > div > div > h5{
+  background: #fff;
+  color: #383838;
+  font-family: 'Ubuntu', sans-serif;
+  box-shadow: 2px 2px 1px #ccc;
+}
+body > div > br{
+  background: #fff;
+  color: #383838;
+  font-family: 'Ubuntu', sans-serif;
+  box-shadow: 2px 2px 1px #ccc;
+}
+}
