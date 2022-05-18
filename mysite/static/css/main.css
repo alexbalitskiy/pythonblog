@@ -45,8 +45,9 @@ div.container-image>img {
 }
 
 body>div>div:nth-child(2)>a {
-  font-size: 30px;
-  color: rgb(0, 162, 255)
+  font-size: 20px;
+  color: rgb(0, 162, 255);
+   margin-left: 15px;
 }
 
 body>div>h1 {
@@ -98,4 +99,12 @@ body>div>br {
   color: #383838;
   font-family: 'Ubuntu', sans-serif;
   box-shadow: 2px 2px 1px #ccc;
+}
+
+body>div>div:nth-child(2) {
+  background: #fff;
+  color: #383838;
+  font-family: 'Ubuntu', sans-serif;
+  box-shadow: 2px 2px 1px #ccc;
+  text-align: left;
 }
