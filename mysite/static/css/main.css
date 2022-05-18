@@ -78,22 +78,24 @@ body>div>div>div:nth-child(2) {
   font-family: 'Ubuntu', sans-serif;
   box-shadow: 2px 2px 1px #ccc;
 }
-body > div > div > div:nth-child(3){
+
+body>div>div>div:nth-child(3) {
   background: #fff;
   color: #383838;
   font-family: 'Ubuntu', sans-serif;
   box-shadow: 2px 2px 1px #ccc;
 }
-body > div > div > h5{
+
+body>div>div>h5 {
   background: #fff;
   color: #383838;
   font-family: 'Ubuntu', sans-serif;
   box-shadow: 2px 2px 1px #ccc;
 }
-body > div > br{
+
+body>div>br {
   background: #fff;
   color: #383838;
   font-family: 'Ubuntu', sans-serif;
   box-shadow: 2px 2px 1px #ccc;
-}
 }
